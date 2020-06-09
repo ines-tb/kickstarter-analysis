@@ -55,10 +55,12 @@ The same dataset will be used to extract this new information. Live projects wil
 ##### Conclusions
 * In the first chart (_"Outcomes Based on Goals"_) it is seen that the goal is a conclusive element, the higher the goal, the lower the chances to reach it except for amounts from **\$35,000 to \$45,000** that are comparable in success to the plays with a budget lower than $5,000. Apart from the mentioned interval, \$20,000 is the point from which the percentage of failure starts to be higher than success.
 In our case, with a \$10,000 goal, the data states that around **54% of the plays with similar finance needs succeed** in the past. 
-![Outcomes Based on Goals](./media/Ch1.OutcomesBasedOnGoals.png)
+
+ ![Outcomes Based on Goals](./media/Ch1.OutcomesBasedOnGoals.png)
 
 * The below picture (_Outcomes Based On Launch Date_) exposes undoubtedly the effect of the release date in the result. Particularly in theater, May is without a doubt the best month to start a fundraising, as the year progresses the likelihood of success highly decreases.
-![Outcomes Based On Launch Date](./media/Ch1.OutcomesBasedOnLaunchDate.png)
+
+ ![Outcomes Based On Launch Date](./media/Ch1.OutcomesBasedOnLaunchDate.png)
 
 * In the same graph, since both cancelations and failed series are both fairly constant, they have not huge impact in the total amount of projects. Then, the percentage is mainly affected by the remaining element, in this case successful projects. I.e. a higher number of projects could lead to a higher success as the total sum follows a similar trend as the success. However, from the data and charts presented it cannot be inferred unless further research due to a lack of other dimensions in the data that can affect the investments, as seasonal, behavioral, or general country wealthiness.   
 
