@@ -46,3 +46,27 @@ Given the information in the previous section, although a 60% of the theater pro
 * Secondly, it would be highly recommended to **reconsider the requested amount**. The estimated budget is twice the average pledged amount for plays in U.S. Having in mind that three quarters of the successfully funded have a pledge below \$5700, the amount \$10,000 should be decreased to have better chances of dodging failure.
 * Moreover, due to fact that the majority of failed projects had very low pledges, it follows that there must be other reasons apart from the costly projects that prevents them from success. A further non-numerical analysis is recommended to help finding subtle similitudes among them that could have led to failure and avoid them in current plan.
 
+---
+### Challenge
+After the previously studied project came close to its goal in a short period of time, an extra analysis is required to determine whether the length of a campaign may contribute to its ultimate success or failure.
+
+The same dataset will be used to extract this new information. Live projects will be ignored in this analysis.
+
+##### Conclusions
+* In the first chart (_"Outcomes Based on Goals"_) it is seen that the goal is a conclusive element, the higher the goal, the lower the chances to reach it except for amounts from **\$35,000 to \$45,000** that are comparable in success to the plays with a budget lower than $5,000. Apart from the mentioned interval, \$20,000 is the point from which the percentage of failure starts to be higher than success.
+In our case, with a \$10,000 goal, the data states that around **54% of the plays with similar finance needs succeed** in the past. 
+![Outcomes Based on Goals](./media/Ch1.OutcomesBasedOnGoals.png)
+
+* The below picture (_Outcomes Based On Launch Date_) exposes undoubtedly the effect of the release date in the result. Particularly in theater, May is without a doubt the best month to start a fundraising, as the year progresses the likelihood of success highly decreases.
+![Outcomes Based On Launch Date](./media/Ch1.OutcomesBasedOnLaunchDate.png)
+
+* In the same graph, since both cancelations and failed series are both fairly constant, they have not huge impact in the total amount of projects. Then, the percentage is mainly affected by the remaining element, in this case successful projects. I.e. a higher number of projects could lead to a higher success as the total sum follows a similar trend as the success. However, from the data and charts presented it cannot be inferred unless further research due to a lack of other dimensions in the data that can affect the investments, as seasonal, behavioral, or general country wealthiness.   
+
+
+##### Data Limitations
+The data does not provide information about the moment when the backers contributed to the projects. This missing information could be crucial to determine the optimal campaign duration, as it could happen that certain fundraisings reached their goals in their last days and reducing the time would make them fail. Other scenario could be that extending the duration of an already successful project may be an unnecessary waste of time.
+
+##### Additional analysis
+* The first remaining thing to do is to calculate the duration of the campaigns, adding a new column the dataset with the days passed since the start of the funding until the end. If this data was displayed in a pivot table that charts the outcome of each Kickstarter project based on the duration and filtered by Category, it could be uncovered which campaign duration are the most successful.
+* Additionally, to complete the previous table we would combine both campaign duration and goal amount. For that purpose, another column for 'Goal Group' will be added to set which of the 12 groups used in the _Outcomes Based on Goals_ section, each project belongs to.
+Then with a pivot table that charts the outcome of each Kickstarter project based on the duration filtered by Category and Goal Group will give us more information about which duration will suits better for our estimated budget in order to succeed.
